@@ -14,7 +14,7 @@ public class Test {
 }
 abstract class MobileUser{
     abstract void sendmessage();
-
+    
 }
 class Sabbir extends MobileUser{
     void sendmessage(){

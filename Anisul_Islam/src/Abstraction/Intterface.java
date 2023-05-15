@@ -14,6 +14,7 @@ interface Animal{
 interface Fish{
     abstract void f();
 }
+ 
 class Dog implements Animal,Fish{
     public void eat(){
         System.out.println("Dog's eat biscuit.");
@@ -21,4 +22,5 @@ class Dog implements Animal,Fish{
     public void f(){
 
     }
+    
 }
