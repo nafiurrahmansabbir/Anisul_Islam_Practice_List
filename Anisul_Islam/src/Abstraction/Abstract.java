@@ -1,6 +1,6 @@
 package Abstraction;
 
-public class Test {
+public class Abstract {
     
     public static void main(String[] args) {
         MobileUser obj;
@@ -8,12 +8,16 @@ public class Test {
         obj.sendmessage();
         obj=new Auntu();
         obj.sendmessage();
+        obj.display();
                 
     }
     
 }
 abstract class MobileUser{
     abstract void sendmessage();
+    void display(){
+        System.out.println("Thats why I'm not 100% abstraction.");
+    }
     
 }
 class Sabbir extends MobileUser{
