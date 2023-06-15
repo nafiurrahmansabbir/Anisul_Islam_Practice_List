@@ -6,16 +6,19 @@ public class test {
     static Encapsulation e1;
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        System.out.print("Enter Name: ");
-        String name=input.nextLine();
-        System.out.print("Enter Age: ");
-        int age=input.nextInt();
-        input.close();
+        // System.out.print("Enter Name: ");
+        // String name=input.nextLine();
+        // System.out.print("Enter Age: ");
+        // int age=input.nextInt();
+        // input.close();
 
         e1=new Encapsulation();
-        e1.setName(name);
-        e1.setAge(age);
+        System.out.print("Enter Name: ");
+        e1.setName(input.nextLine());
+        System.out.print("Enter Age: ");
+        e1.setAge(input.nextInt());
         e1.print();  
+        input.close();
     }
 }
 class Encapsulation{

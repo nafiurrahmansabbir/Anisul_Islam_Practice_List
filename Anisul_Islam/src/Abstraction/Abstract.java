@@ -13,8 +13,10 @@ public class Abstract {
     }
     
 }
-abstract class MobileUser{
+abstract  class MobileUser{
+    //abstrac method
     abstract void sendmessage();
+    //normal method
     void display(){
         System.out.println("Thats why I'm not 100% abstraction.");
     }

@@ -12,7 +12,7 @@ interface Animal{
     abstract void eat();
 }
 interface Fish{
-    abstract void f();
+    abstract public void f();
 }
  
 class Dog implements Animal,Fish{
